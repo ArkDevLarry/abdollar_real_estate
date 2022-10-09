@@ -1,8 +1,8 @@
 <?php
 
 // Define some constants
-define( "RECIPIENT_NAME", "Karae Homes" );
-define( "RECIPIENT_EMAIL", "info@keraehomes.com" );
+define( "RECIPIENT_NAME", "Abdollar Homes" );
+define( "RECIPIENT_EMAIL", "info@abdollarhomes.com" );
 
 
 // Read the form values
@@ -21,7 +21,7 @@ if ( $userName && $senderEmail && $senderSubject && $message) {
 
   //Set Location After Successsfull Submission
   //header('Location: contact.html?message=Successfull');
-  $msg="Thank you for contacting Kerae Homes. We would get back to you shortly.";
+  $msg="Thank you for contacting Abdollar Homes. We would get back to you shortly.";
   echo"<script>alert('$msg');window.location='contact'</script> ";
 }
 
@@ -31,4 +31,5 @@ else{
         $msg="Oops! Operation failed.";
         echo"<script>alert('$msg');window.location='contact'</script> ";
 }
-
+
+?>
